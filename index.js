@@ -15,11 +15,6 @@ module.exports = function abbrevKindof(val, type) {
   var len = abbrs.length;
   var i = -1;
 
-  if (len <= 1) {
-    type = abbrs[0];
-    return !(val && kindOf(val) !== type);
-  }
-
   while (i < len) {
     i = i + 1;
     type = abbrs[i];
