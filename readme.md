@@ -30,6 +30,24 @@ abbrevKindof({foo: 'bar'}, 'soa');
 ```
 
 
+# Possible abbreviations
+- `a` for `array`
+- `b` for `boolean`
+- `f` for `function`
+- `n` for `number`
+- `o` for `object`
+- `r` for `regexp`
+- `s` for `string`
+- `y` for `symbol`
+
+
+## Related
+- [assert-kindof](https://github.com/tunnckoCore/assert-kindof): Check native type of the given value and throw TypeError if not okey. Expressive, elegant, behavior-driven API, good descriptive default error messages, simple and clean syntax.
+- [is-kindof](https://github.com/tunnckoCore/is-kindof): Thin wrapper around `kind-of` and in bonus functional api.
+- [kind-of](https://github.com/jonschlinkert/kind-of): Get the native type of a value.
+- [map-types](https://github.com/jonschlinkert/map-types): Map single letter abbreviations to javascript native types. Useful as a shorthand for pseudo-argument destructuring when debugging.
+
+
 ## Author
 **Charlike Mike Reagent**
 + [gratipay/tunnckoCore][author-gratipay]
