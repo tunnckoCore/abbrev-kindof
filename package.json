@@ -1,6 +1,6 @@
 {
   "name": "abbrev-kindof",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "`kind-of` with single letter abbreviations to javascript native types, like `kindof(val, 'soa')` will return true if `val` is string, object or array.",
   "scripts": {
     "lint": "jshint index.js && jscs index.js --reporter inline",
