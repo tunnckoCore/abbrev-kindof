@@ -17,7 +17,25 @@
     "type": "git",
     "url": "git://github.com/tunnckoCore/abbrev-kindof.git"
   },
-  "keywords": [],
+  "keywords": [
+    "abbrev",
+    "abbreviations",
+    "array",
+    "check",
+    "kind",
+    "kindof",
+    "letter",
+    "object",
+    "polyfill",
+    "shim",
+    "single",
+    "string",
+    "tower",
+    "type",
+    "typeof",
+    "validate",
+    "validating"
+  ],
   "license": {
     "type": "MIT",
     "url": "https://github.com/tunnckoCore/abbrev-kindof/blob/master/license.md"
