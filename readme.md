@@ -2,6 +2,7 @@
 
 > `kind-of` with single letter abbreviations to javascript native types, like `kindof(val, 'soa')` will return true if `val` is string, object or array.
 
+
 ## Install
 ```
 npm i --save abbrev-kindof
@@ -14,6 +15,18 @@ npm test
 
 ```js
 var abbrevKindof = require('abbrev-kindof');
+
+abbrevKindof(123, 'soa');
+//=> false
+
+abbrevKindof(['foo', 'bar'], 'soa');
+//=> true
+
+abbrevKindof('foo bar', 'soa');
+//=> true
+
+abbrevKindof({foo: 'bar'}, 'soa');
+//=> true
 ```
 
 
