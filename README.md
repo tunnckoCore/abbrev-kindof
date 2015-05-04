@@ -68,7 +68,7 @@ Released under the [`MIT`][license-url] license.
 [coveralls-url]: https://coveralls.io/r/tunnckoCore/abbrev-kindof?branch=master
 [coveralls-img]: https://img.shields.io/coveralls/tunnckoCore/abbrev-kindof.svg?style=flat
 
-[license-url]: https://github.com/tunnckoCore/abbrev-kindof/blob/master/license.md
+[license-url]: https://github.com/tunnckoCore/abbrev-kindof/blob/master/LICENSE.md
 [license-img]: https://img.shields.io/badge/license-MIT-blue.svg?style=flat
 
 [travis-url]: https://travis-ci.org/tunnckoCore/abbrev-kindof
