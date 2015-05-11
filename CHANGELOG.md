@@ -1,6 +1,11 @@
 
 
-## v1.0.1 - 2015-05-04
+## 1.0.2 - 2015-05-10
+- Release v1.0.2 / npm@v1.0.2
+- fix package.json
+- update repo template
+
+## 1.0.1 - 2015-05-04
 - Release v1.0.1 / npm@v1.0.1
 - fix license links
 - rename history, readme and license to be uppercased to draw attention
