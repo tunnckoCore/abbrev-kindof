@@ -1,4 +1,4 @@
-/**
+/*!
  * abbrev-kindof <https://github.com/tunnckoCore/abbrev-kindof>
  *
  * Copyright (c) 2015 Charlike Mike Reagent, contributors.
