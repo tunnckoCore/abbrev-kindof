@@ -1,5 +1,9 @@
 
 
+## 1.0.3 - 2015-05-10
+- Release v1.0.3 / npm@v1.0.3
+- add contribution guidelines
+
 ## 1.0.2 - 2015-05-10
 - Release v1.0.2 / npm@v1.0.2
 - fix package.json

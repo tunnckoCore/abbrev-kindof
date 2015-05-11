@@ -1,6 +1,6 @@
 {
   "name": "abbrev-kindof",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "`kind-of` with single letter abbreviations to javascript native types, like `kindof(val, 'soa')` will return true if `val` is string, object or array. useful for DB/Schema/Object validations",
   "scripts": {
     "test": "standard && node test.js"
