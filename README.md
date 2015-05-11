@@ -49,6 +49,12 @@ abbrevKindof({foo: 'bar'}, 'soa');
 - [map-types](https://github.com/jonschlinkert/map-types): Map single letter abbreviations to javascript native types. Useful as a shorthand for pseudo-argument destructuring when debugging.
 
 
+## Contributing
+
+Pull requests and stars are always welcome. For bugs and feature requests, [please create an issue](https://github.com/tunnckoCore/abbrev-kindof/issues/new).  
+But before doing anything, pleas that read the [CONTRIBUTING.md](./CONTRIBUTING.md) guidelines.
+
+
 ## [Charlike Make Reagent](http://j.mp/1stW47C) [![new message to charlike][new-message-img]][new-message-url] [![freenode #charlike][freenode-img]][freenode-url]
 
 [![tunnckocore.tk][author-www-img]][author-www-url] [![keybase tunnckocore][keybase-img]][keybase-url] [![tunnckoCore npm][author-npm-img]][author-npm-url] [![tunnckoCore twitter][author-twitter-img]][author-twitter-url] [![tunnckoCore github][author-github-img]][author-github-url]
@@ -75,7 +81,6 @@ abbrevKindof({foo: 'bar'}, 'soa');
 
 [standard-url]: https://github.com/feross/standard
 [standard-img]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg
-
 
 
 [author-www-url]: http://www.tunnckocore.tk
