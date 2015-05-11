@@ -1,6 +1,6 @@
 {
   "name": "abbrev-kindof",
-  "version": "0.0.0",
+  "version": "1.0.1",
   "description": "`kind-of` with single letter abbreviations to javascript native types, like `kindof(val, 'soa')` will return true if `val` is string, object or array. useful for DB/Schema/Object validations",
   "scripts": {
     "test": "standard && node test.js"
@@ -14,12 +14,33 @@
     "type": "git",
     "url": "git://github.com/tunnckoCore/abbrev-kindof.git"
   },
-  "keywords": [],
+  "keywords": [
+    "abbrev",
+    "abbreviations",
+    "array",
+    "check",
+    "kind",
+    "kindof",
+    "letter",
+    "object",
+    "polyfill",
+    "shim",
+    "single",
+    "string",
+    "tower",
+    "type",
+    "typeof",
+    "validate",
+    "validating"
+  ],
   "license": {
     "type": "MIT",
     "url": "https://github.com/tunnckoCore/abbrev-kindof/blob/master/LICENSE.md"
   },
-  "dependencies": {},
+  "dependencies": {
+    "kind-of": "^1.1.0",
+    "map-types": "^0.1.0"
+  },
   "devDependencies": {
     "assertit": "^0.1.0"
   }
