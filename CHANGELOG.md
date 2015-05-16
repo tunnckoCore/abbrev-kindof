@@ -1,5 +1,9 @@
 
 
+## 1.0.4 - 2015-05-17
+- Release v1.0.4 / npm@v1.0.4
+- fix contributing section typo
+
 ## 1.0.3 - 2015-05-10
 - Release v1.0.3 / npm@v1.0.3
 - add contribution guidelines
