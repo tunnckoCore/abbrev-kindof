@@ -29,5 +29,5 @@
 - run keywords(1)
 - rethink it
 
-## 0.0.0 - 2015-05-02
-- first commits
+## 0.0.0 - 2015-08-30
+- Initial commit

@@ -1,6 +1,6 @@
 # Contributing Guidelines
 
-Contributions welcome!
+Contributions are always welcome!
 
 **Before spending lots of time on something, ask for feedback on your idea first!**
 

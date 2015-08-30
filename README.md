@@ -1,6 +1,6 @@
-# abbrev-kindof [![npmjs.com][npmjs-img]][npmjs-url] [![The MIT License][license-img]][license-url] 
+# [abbrev-kindof][author-www-url] [![npmjs.com][npmjs-img]][npmjs-url] [![The MIT License][license-img]][license-url] 
 
-> `kind-of` with single letter abbreviations to javascript native types, like `kindof(val, 'soa')` will return true if `val` is string, object or array. useful for DB/Schema/Object validations
+> Use abbreviations for checking type of given value. Like `kindof(val, 'soa')` to check that value is string, object or array.
 
 [![code climate][codeclimate-img]][codeclimate-url] [![standard code style][standard-img]][standard-url] [![travis build status][travis-img]][travis-url] [![coverage status][coveralls-img]][coveralls-url] [![dependency status][david-img]][david-url]
 
@@ -8,7 +8,6 @@
 ## Install
 ```
 npm i abbrev-kindof --save
-npm test
 ```
 
 
@@ -17,21 +16,14 @@ npm test
 
 ```js
 
-abbrevKindof(123, 'soa');
-//=> false
-
-abbrevKindof(['foo', 'bar'], 'soa');
-//=> true
-
-abbrevKindof('foo bar', 'soa');
-//=> true
-
-abbrevKindof({foo: 'bar'}, 'soa');
-//=> true
+abbrevKindof(123, 'soa') //=> false
+abbrevKindof(['foo', 'bar'], 'soa') //=> true
+abbrevKindof('foo bar', 'soa') //=> true
+abbrevKindof({foo: 'bar'}, 'soa') //=> true
 ```
 
 
-# Possible abbreviations
+# Available abbreviations
 - `a` for `array`
 - `b` for `boolean`
 - `f` for `function`
@@ -42,15 +34,7 @@ abbrevKindof({foo: 'bar'}, 'soa');
 - `y` for `symbol`
 
 
-## Related
-- [assert-kindof](https://github.com/tunnckoCore/assert-kindof): Check native type of the given value and throw TypeError if not okey. Expressive, elegant, behavior-driven API, good descriptive default error messages, simple and clean syntax.
-- [is-kindof](https://github.com/tunnckoCore/is-kindof): Thin wrapper around `kind-of` and in bonus functional api.
-- [kind-of](https://github.com/jonschlinkert/kind-of): Get the native type of a value.
-- [map-types](https://github.com/jonschlinkert/map-types): Map single letter abbreviations to javascript native types. Useful as a shorthand for pseudo-argument destructuring when debugging.
-
-
 ## Contributing
-
 Pull requests and stars are always welcome. For bugs and feature requests, [please create an issue](https://github.com/tunnckoCore/abbrev-kindof/issues/new).  
 But before doing anything, please read the [CONTRIBUTING.md](./CONTRIBUTING.md) guidelines.
 
@@ -102,4 +86,4 @@ But before doing anything, please read the [CONTRIBUTING.md](./CONTRIBUTING.md) 
 [freenode-img]: https://img.shields.io/badge/freenode-%23charlike-5654a4.svg
 
 [new-message-url]: https://github.com/tunnckoCore/messages
-[new-message-img]: https://img.shields.io/badge/send%20me-message-green.svg
+[new-message-img]: https://img.shields.io/badge/ask%20me-anything-green.svg
