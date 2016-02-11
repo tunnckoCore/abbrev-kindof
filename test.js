@@ -14,8 +14,8 @@ var abbrevKindof = require('./index')
 
 test('abbrev-kindof:', function () {
   test('should work with single abbrev', function (done) {
-    test.equal(abbrevKindof(123, 's'), false)
-    test.equal(abbrevKindof(123, 'n'), true)
+    test.strictEqual(abbrevKindof(123, 's'), false)
+    test.strictEqual(abbrevKindof(123, 'n'), true)
     done()
   })
   test('should work with multiple abbrevs', function (done) {
@@ -24,10 +24,10 @@ test('abbrev-kindof:', function () {
     var foobar_string = 'foo bar'
     var foobar_array = ['foo', 'bar']
 
-    test.equal(abbrevKindof(foobar_object, 'sa'), false)
-    test.equal(abbrevKindof(foobar_regexp, 'sa'), false)
-    test.equal(abbrevKindof(foobar_string, 'sa'), true)
-    test.equal(abbrevKindof(foobar_array, 'sa'), true)
+    test.strictEqual(abbrevKindof(foobar_object, 'sa'), false)
+    test.strictEqual(abbrevKindof(foobar_regexp, 'sa'), false)
+    test.strictEqual(abbrevKindof(foobar_string, 'sa'), true)
+    test.strictEqual(abbrevKindof(foobar_array, 'sa'), true)
     done()
   })
 })
