@@ -24,7 +24,7 @@ var kindOf = require('kind-of')
  * ```
  *
  * @param  {Mixed} `val` value to check
- * @param  {String|Array} `type` list of single-letter (abbr) types
+ * @param  {String|Array} `type` list of single-letter [(abbr) types](https://github.com/jonschlinkert/map-types)
  * @return {Boolean} if `true`, so `val` match one of the abbreviated types
  * @api public
  */

@@ -23,9 +23,9 @@ const abbrevKindof = require('abbrev-kindof')
 
 **Params**
 
-* `val` **{Mixed}**: value to check    
-* `type` **{String|Array}**: list of single-letter (abbr) types    
-* `returns` **{Boolean}**: if `true`, so `val` match one of the abbreviated types  
+* `val` **{Mixed}**: value to check
+* `type` **{String|Array}**: list of single-letter [(abbr) types](https://github.com/jonschlinkert/map-types)
+* `returns` **{Boolean}**: if `true`, so `val` match one of the abbreviated types
 
 **Example**
 
@@ -38,6 +38,8 @@ abbrevKindof(['c', 'd'], 'soa')   //=> true
 ```
 
 ## Available abbreviations
+> Using [map-types](https://github.com/jonschlinkert/map-types)
+
 - `a` for `array`
 - `b` for `boolean`
 - `f` for `function`
