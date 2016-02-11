@@ -1,6 +1,6 @@
 {
   "name": "abbrev-kindof",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Use abbreviations for checking type of given value. Like `kindof(val, 'soa')` to check that value is string, object or array.",
   "repository": "tunnckoCore/abbrev-kindof",
   "author": "Charlike Mike Reagent <@tunnckoCore> (http://www.tunnckocore.tk)",

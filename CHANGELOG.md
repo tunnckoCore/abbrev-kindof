@@ -1,5 +1,12 @@
 
 
+## 1.0.5 - 2016-02-11
+- Release v1.0.5 / npm@v1.0.5
+- update license year range and other misc stuff
+- greenkeepr enable repo
+- bump to `kind-of@3`
+- add docs
+
 ## 1.0.4 - 2015-05-17
 - Release v1.0.4 / npm@v1.0.4
 - fix contributing section typo
