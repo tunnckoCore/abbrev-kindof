@@ -47,7 +47,7 @@ But before doing anything, please read the [CONTRIBUTING.md](./CONTRIBUTING.md) 
 [npmjs-url]: https://www.npmjs.com/package/abbrev-kindof
 [npmjs-img]: https://img.shields.io/npm/v/abbrev-kindof.svg?label=abbrev-kindof
 
-[license-url]: https://github.com/tunnckoCore/abbrev-kindof/blob/master/LICENSE.md
+[license-url]: https://github.com/tunnckoCore/abbrev-kindof/blob/master/LICENSE
 [license-img]: https://img.shields.io/badge/license-MIT-blue.svg
 
 
