@@ -48,6 +48,15 @@ abbrevKindof(['c', 'd'], 'soa')   //=> true
 - `y` for `symbol`
 
 
+## Related Libs
+* [assert-kindof](https://www.npmjs.com/package/assert-kindof): Check native type of the given value and throw TypeError if not okey. Expressive, elegant, behavior-driven API, good descriptive default error messages, simple and clean syntax. | [homepage](https://github.com/tunnckoCore/assert-kindof)
+* [is-kindof](https://www.npmjs.com/package/is-kindof): Check type of given javascript value. Support promises, generators, streams, and native types. Thin wrapper around `kind-of` module. | [homepage](https://github.com/tunnckocore/is-kindof)
+* [kind-error](https://www.npmjs.com/package/kind-error): Base class for easily creating meaningful and quiet by default Error classes with sane defaults and assertion in mind. | [homepage](https://github.com/tunnckocore/kind-error)
+* [kind-of](https://www.npmjs.com/package/kind-of): Get the native type of a value. | [homepage](https://github.com/jonschlinkert/kind-of)
+* [kind-of-extra](https://www.npmjs.com/package/kind-of-extra): Extends `kind-of` type check utility with support for promises, generators, streams and errors. Like `kindof(Promise.resolve(1)) === 'promise'` and etc. | [homepage](https://github.com/tunnckocore/kind-of-extra)
+* [kind-of-types](https://www.npmjs.com/package/kind-of-types): List of all javascript types. Used and useful for checking, validation, sanitizing and testing. Like isStream, isPromise, isWeakset and etc. | [homepage](https://github.com/tunnckocore/kind-of-types)
+
+
 ## Contributing
 Pull requests and stars are always welcome. For bugs and feature requests, [please create an issue](https://github.com/tunnckoCore/abbrev-kindof/issues/new).  
 But before doing anything, please read the [CONTRIBUTING.md](./CONTRIBUTING.md) guidelines.
