@@ -15,15 +15,29 @@ npm i abbrev-kindof --save
 > For more use-cases see the [tests](./test.js)
 
 ```js
-
-abbrevKindof(123, 'soa') //=> false
-abbrevKindof(['foo', 'bar'], 'soa') //=> true
-abbrevKindof('foo bar', 'soa') //=> true
-abbrevKindof({foo: 'bar'}, 'soa') //=> true
+const abbrevKindof = require('abbrev-kindof')
 ```
 
+### [abbrevKindof](index.js#L31)
+> Check type of a `val` with abbreviations.
 
-# Available abbreviations
+**Params**
+
+* `val` **{Mixed}**: value to check    
+* `type` **{String|Array}**: list of single-letter (abbr) types    
+* `returns` **{Boolean}**: if `true`, so `val` match one of the abbreviated types  
+
+**Example**
+
+```js
+// `soa` here means - string, object or array
+abbrevKindof(123, 'soa')          //=> false
+abbrevKindof('foo bar', 'soa')    //=> true
+abbrevKindof({a: 123}, 'soa')     //=> true
+abbrevKindof(['c', 'd'], 'soa')   //=> true
+```
+
+## Available abbreviations
 - `a` for `array`
 - `b` for `boolean`
 - `f` for `function`

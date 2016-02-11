@@ -10,6 +10,24 @@
 var abbrev = require('map-types')
 var kindOf = require('kind-of')
 
+/**
+ * > Check type of a `val` with abbreviations.
+ *
+ * **Example**
+ *
+ * ```js
+ * // `soa` here means - string, object or array
+ * abbrevKindof(123, 'soa')          //=> false
+ * abbrevKindof('foo bar', 'soa')    //=> true
+ * abbrevKindof({a: 123}, 'soa')     //=> true
+ * abbrevKindof(['c', 'd'], 'soa')   //=> true
+ * ```
+ *
+ * @param  {Mixed} `val` value to check
+ * @param  {String|Array} `type` list of single-letter (abbr) types
+ * @return {Boolean} if `true`, so `val` match one of the abbreviated types
+ * @api public
+ */
 module.exports = function abbrevKindof (val, type) {
   var abbrs = abbrev(type)
   var len = abbrs.length
