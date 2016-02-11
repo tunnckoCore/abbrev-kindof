@@ -4,6 +4,7 @@
   "description": "Use abbreviations for checking type of given value. Like `kindof(val, 'soa')` to check that value is string, object or array.",
   "repository": "tunnckoCore/abbrev-kindof",
   "author": "Charlike Mike Reagent <@tunnckoCore> (http://www.tunnckocore.tk)",
+  "precommit.silent": true,
   "main": "index.js",
   "license": "MIT",
   "scripts": {
@@ -14,7 +15,8 @@
     "map-types": "^0.1.0"
   },
   "devDependencies": {
-    "assertit": "^0.1.0"
+    "assertit": "^0.1.0",
+    "pre-commit": "*"
   },
   "files": [
     "index.js"
